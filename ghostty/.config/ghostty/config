@@ -1,0 +1,5 @@
+font-family = "Monaspace Radon NF"
+font-feature = +dlig
+background-opacity = 0.55
+scrollback-limit = 1000000 
+theme = Rose Pine
