@@ -6,4 +6,6 @@ alias btop="btop --force-utf"
 #    # smth smth
 #end
 
-string match -q "$TERM_PROGRAM" "kiro" and . (kiro --locate-shell-integration-path fish)
+string match -q "$TERM_PROGRAM" kiro and . (kiro --locate-shell-integration-path fish)
+
+set -x TERM xterm-256color
