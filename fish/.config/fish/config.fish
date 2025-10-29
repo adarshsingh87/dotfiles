@@ -5,3 +5,5 @@ alias btop="btop --force-utf"
 #function fish_greeting
 #    # smth smth
 #end
+
+string match -q "$TERM_PROGRAM" "kiro" and . (kiro --locate-shell-integration-path fish)

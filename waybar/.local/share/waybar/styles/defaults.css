@@ -265,5 +265,5 @@ window#waybar.bottom #pill-down,
 window#waybar.bottom #pill-up,
 window#waybar.bottom #pill-in,
 window#waybar.bottom #pill-out {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
 }
