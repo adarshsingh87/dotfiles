@@ -35,7 +35,7 @@ mainbox {
     spacing:                     0em;
     padding:                     0.5em;
     orientation:                 vertical;
-    children:                    [ "wallbox" , "listbox" ];
+    children:                    [ "wallbox", "message" , "listbox" ];
     background-color:            transparent;
 }
 wallbox {

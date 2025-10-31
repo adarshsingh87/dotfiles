@@ -43,7 +43,7 @@ mainbox {
     spacing:                     0em;
     padding:                     1em;
     orientation:                 vertical;
-    children:                    [ "inputbar" , "listbox" ];
+    children:                    [ "inputbar", "message" , "listbox" ];
     background-color:            transparent;
 }
 

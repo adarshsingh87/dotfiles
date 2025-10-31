@@ -43,7 +43,7 @@ mainbox {
     spacing:                     0em;
     padding:                     0em;
     orientation:                 vertical;
-    children:                    [ "inputbar" , "listbox" ];
+    children:                    [ "inputbar", "message" , "listbox" ];
     background-color:            transparent;
     background-image:            url("~/.cache/hyde/wall.blur", height);
 }

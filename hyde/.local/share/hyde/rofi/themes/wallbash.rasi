@@ -39,7 +39,7 @@ window {
 mainbox {
     enabled:                     true;
     orientation:                 vertical;
-    children:                    [ "dummy" , "listview" ];
+    children:                    [ "dummy", "message" , "listview" ];
     background-color:            transparent;
 }
 

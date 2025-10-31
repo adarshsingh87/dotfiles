@@ -38,7 +38,7 @@ window {
 }
 mainbox {
     enabled:                     true;
-    children:                    [ "listview" ];
+    children:                    [ "listview", "message" ];
     background-color:            transparent;
     orientation:                 horizontal;
     spacing:                     0em;

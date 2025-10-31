@@ -37,7 +37,7 @@ window {
 }
 mainbox {
     enabled:                     true;
-    children:                    [ "listview" ];
+    children:                    [ "listview", "message" ];
     background-color:            @main-bg;
 }
 

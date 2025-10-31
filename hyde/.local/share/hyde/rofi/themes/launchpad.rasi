@@ -48,7 +48,7 @@ mainbox {
     border-radius:               0px 0px 0px 0px;
     border-color:                @select-fg;
     background-color:            transparent;
-    children:                    [ "inputbar", "listview" ];
+    children:                    [ "inputbar", "message", "listview" ];
 }
 
 /*****----- Inputbar -----*****/

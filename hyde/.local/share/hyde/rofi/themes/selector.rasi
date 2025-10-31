@@ -33,7 +33,7 @@ window {
 mainbox {
     enabled:                     true;
     orientation:                 horizontal;
-    children:                    [ "dummy", "frame", "dummy" ];
+    children:                    [ "dummy", "message", "frame", "dummy" ];
     background-color:            transparent;
 }
 frame {

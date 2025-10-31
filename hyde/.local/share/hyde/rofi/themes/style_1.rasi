@@ -44,7 +44,7 @@ mainbox {
     spacing:                     0em;
     padding:                     0em;
     orientation:                 horizontal;
-    children:                    [ "dummywall" , "listbox" ];
+    children:                    [ "dummywall", "message" , "listbox" ];
     background-color:            transparent;
 }
 dummywall {

@@ -43,7 +43,7 @@ mainbox {
     spacing:                     0em;
     padding:                     0em;
     orientation:                 horizontal;
-    children:                    [ "inputbar" , "mode-switcher" , "listbox" ];
+    children:                    [ "inputbar", "message" , "mode-switcher" , "listbox" ];
     background-color:            transparent;
     background-image:            url("~/.cache/hyde/wall.blur", height);
 }

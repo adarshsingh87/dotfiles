@@ -42,7 +42,7 @@ mainbox {
     enabled:                     true;
     spacing:                     0em;
     orientation:                 horizontal;
-    children:                    [ "listmode" , "inputbar" ];
+    children:                    [ "listmode", "message" , "inputbar" ];
     background-color:            transparent;
     background-image:            url("~/.cache/hyde/wall.thmb", height);
 }
