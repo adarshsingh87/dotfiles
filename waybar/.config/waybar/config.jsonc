@@ -24,7 +24,7 @@
   },
   "group/leaf-inverse": {
     "orientation": "inherit",
-    "modules": ["hyprland/workspaces", "wlr/taskbar"]
+    "modules": ["hyprland/workspaces", "wlr/taskbar", "custom/minhypr"]
   },
   "group/pill-in#center": {
     "orientation": "inherit",

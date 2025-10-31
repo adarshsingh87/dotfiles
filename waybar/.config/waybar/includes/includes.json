@@ -63,7 +63,8 @@
         "/home/nokia3310/.local/share/waybar/modules/temperature.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/tray.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/wlr-taskbar#windows.jsonc",
-        "/home/nokia3310/.local/share/waybar/modules/wlr-taskbar.jsonc"
+        "/home/nokia3310/.local/share/waybar/modules/wlr-taskbar.jsonc",
+        "/home/nokia3310/.local/share/waybar/modules/minhypr.jsonc"
     ],
     "image#wallpaper": {
         "size": 30,

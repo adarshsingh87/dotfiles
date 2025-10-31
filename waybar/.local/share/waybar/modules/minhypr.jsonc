@@ -1,0 +1,10 @@
+{
+    "custom/minhypr": {
+        "exec": "minhypr show",
+        "return-type": "json",
+        "interval": 1,
+        "format": "{}",
+        "on-click": "~/.config/minhypr/launch-menu.sh",
+        "on-click-right": "minhypr restore-all"
+    }
+}
