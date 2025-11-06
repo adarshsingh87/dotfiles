@@ -2,14 +2,13 @@
     "include": [
         "/home/nokia3310/.local/share/waybar/modules/image#wallpaper.json",
         "/home/nokia3310/.local/share/waybar/modules/privacy.json",
-        "/home/nokia3310/.local/share/waybar/modules/tray.json",
         "/home/nokia3310/.local/share/waybar/modules/wlr-taskbar#windows.json",
         "/home/nokia3310/.local/share/waybar/modules/wlr-taskbar.json",
+        "/home/nokia3310/.local/share/waybar/modules/tray.json",
         "/home/nokia3310/.local/share/waybar/modules/backlight.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/battery.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/bluetooth.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/cava.jsonc",
-        "/home/nokia3310/.local/share/waybar/modules/clock.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/cpu.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/custom-cava.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/custom-clipboard.jsonc",
@@ -64,6 +63,7 @@
         "/home/nokia3310/.local/share/waybar/modules/tray.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/wlr-taskbar#windows.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/wlr-taskbar.jsonc",
+        "/home/nokia3310/.local/share/waybar/modules/clock.jsonc",
         "/home/nokia3310/.local/share/waybar/modules/minhypr.jsonc"
     ],
     "image#wallpaper": {
