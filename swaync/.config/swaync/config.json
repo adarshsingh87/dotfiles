@@ -6,7 +6,7 @@
   "control-center-layer": "top",
   "layer-shell": true,
   "cssPriority": "user",
-  "control-center-width": 450,
+  "control-center-width": 380,
   "control-center-margin-top": 0,
   "control-center-margin-bottom": 0,
   "control-center-margin-right": 0,
@@ -47,10 +47,13 @@
     },
     "volume": {
       "label": "",
+      "show-per-app": true,
+      "show-per-app-icon": true,
       "step": 5
     },
     "backlight": {
       "label": "󰃞",
+      "device": "nvidia_0",
       "step": 5
     },
     "buttons-grid": {
@@ -70,21 +73,6 @@
           "command": "swaync-client -d",
           "type": "toggle",
           "tooltip": "DND"
-        },
-        {
-          "label": "󰍜",
-          "command": "gnome-network-displays",
-          "tooltip": "Screens"
-        },
-        {
-          "label": "󰈙",
-          "command": "kitty bash -i -c 'Docs'",
-          "tooltip": "Files"
-        },
-        {
-          "label": "",
-          "command": "kitty bash -i -c 'Settings'",
-          "tooltip": "Settings"
         },
         {
           "label": "",

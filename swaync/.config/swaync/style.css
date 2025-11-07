@@ -63,9 +63,16 @@
   margin-bottom: 14px;
   border: 1px solid @border_medium;
 }
-.widget-volume, .widget-backlight { padding: 14px 18px; }
-.widget-buttons-grid { padding: 12px; }
-.control-center > box > *:last-child { margin-bottom: 0; }
+.widget-volume,
+.widget-backlight {
+  padding: 14px 18px;
+}
+.widget-buttons-grid {
+  padding: 12px;
+}
+.control-center > box > *:last-child {
+  margin-bottom: 0;
+}
 
 /* Widget Titles */
 .widget-title {
@@ -75,7 +82,7 @@
   margin-bottom: 8px;
 }
 .widget-title label {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 17px;
   font-weight: 500;
   color: @theme_fg_secondary;
@@ -136,10 +143,13 @@
   border-radius: 50%;
   padding: 7px;
   color: @icon_secondary;
-  font-size: 16px;
+  font-size: 30px;
+  cursor: pointer;
   min-width: 34px;
   min-height: 34px;
-  transition: background-color 0.15s ease, color 0.15s ease;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
 }
 .widget-mpris .widget-mpris-player button:hover {
   background-color: @button_hover_bg;
@@ -150,7 +160,8 @@
 }
 
 /* ── 5. Sliders (Volume, Backlight) ─────────────────────────────── */
-.widget-volume label, .widget-backlight label {
+.widget-volume label,
+.widget-backlight label {
   font-size: 24px;
   color: @icon_primary;
   min-width: 24px;
@@ -174,7 +185,7 @@ trough highlight {
   padding: 5px;
   background: @accent_color;
   border-radius: 20px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   transition: all 0.7s ease;
 }
 scale slider {
@@ -194,16 +205,18 @@ scale slider {
   background: none;
 }
 .widget-buttons-grid > flowbox > flowboxchild > button {
-  background-color: rgba(0,0,0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 66px;
   padding: 14px;
   min-width: 24px;
   min-height: 24px;
   color: @icon_secondary;
-  transition: background-color 0.15s ease, color 0.15s ease;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
 }
 .widget-buttons-grid > flowbox > flowboxchild > button:hover {
-  background-color: rgba(20,20,20, 0.45);
+  background-color: rgba(20, 20, 20, 0.45);
   color: @icon_primary;
 }
 .widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
@@ -230,7 +243,6 @@ scale slider {
   transition: background-color 0.15s ease;
 }
 .control-center .notification-row:hover .notification-background {
-
   border-radius: 18px;
   background-color: @module_hover_bg;
 }
@@ -240,7 +252,6 @@ scale slider {
   margin-bottom: 5px;
 }
 .control-center .notification .body {
-
   color: @theme_fg_secondary;
 }
 .control-center .notification .time {
@@ -260,14 +271,14 @@ scale slider {
   background-color: @close_button_hover_bg;
 }
 .control-center .close-button image {
-    margin-right: 12px; /* Adjust this value for desired spacing */
+  margin-right: 12px; /* Adjust this value for desired spacing */
   color: @icon_secondary;
 }
 
 .control-center .notification image {
   margin-right: 12px; /* Space between image and text */
-  min-width: 36px;    /* Define a minimum width */
-  min-height: 36px;   /* Define a minimum height */
+  min-width: 36px; /* Define a minimum width */
+  min-height: 36px; /* Define a minimum height */
   /* Add or adjust the border-radius property here */
   border-radius: 8px; /* <<< THIS LINE controls the rounding */
 }
@@ -315,7 +326,7 @@ scale slider {
   background-color: @close_button_hover_bg;
 }
 .floating-notifications .close-button image {
-    margin-right: 12px; /* Adjust this value for desired spacing */
+  margin-right: 12px; /* Adjust this value for desired spacing */
   color: @icon_secondary;
 }
 .floating-notifications .notification-alt-actions {
