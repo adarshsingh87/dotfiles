@@ -1,5 +1,11 @@
 font-family = "Monaspace Radon NF"
-font-feature = +dlig
+font-feature = "+dlig"
+font-feature = "+liga"
+font-feature = "+calt"
+font-feature = "ss01"
+font-feature = "ss02"
+font-feature = "ss03"
 background-opacity = 0.55
 scrollback-limit = 1000000 
 theme = Rose Pine
+working-directory = home
