@@ -11,3 +11,4 @@ string match -q "$TERM_PROGRAM" kiro and . (kiro --locate-shell-integration-path
 
 set -x TERM xterm-256color
 zoxide init fish | source
+starship init fish | source
