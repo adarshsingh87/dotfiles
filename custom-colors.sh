@@ -9,5 +9,4 @@ echo "$wallpaper"
 wallpaperPath="$baseDir/$wallpaper"
 
 rm ~/dotfiles/hyde/.config/hyde/themes/Crimson\ Blade/wall.set
-ln -s "$wallpaperPath" ~/dotfiles/hyde/.config/hyde/themes/Crimson\ Blade/wall.set
-exec wallbashtoggle.sh
+exec ln -s "$wallpaperPath" ~/dotfiles/hyde/.config/hyde/themes/Crimson\ Blade/wall.set
